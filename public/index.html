@@ -4,12 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Style</title>
-    <link href="./output.css" rel="stylesheet" />
+    <link href="./output.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <div id="root">
-      <div id="content-wrapper">
-        <header>header</header>
+      <div
+        class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200"
+      >
+        <header class="py-6 mx-10">
+          <nav class="flex flex-row justify-between items-center">
+            <div
+              class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer"
+            >
+              CoffeeStyle.
+            </div>
+            <ul
+              class="basis-3/6 flex justify-start items-center gap-8 uppercase text-sm text-gray-500 font-medium"
+            >
+              <li
+                class="cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-slate-900 after:h-0.5 after:w-full"
+              >
+                <!--28:28 tìm hiểu relative after trong css-->
+                <a href="#" class="">Home</a>
+              </li>
+              <li class="cursor-pointer py-1 hover:text-gray-800">
+                <a href="#" class="">Our Products</a>
+              </li>
+              <li class="cursor-pointer py-1 hover:text-gray-800">
+                <a href="#" class="">Blog</a>
+              </li>
+              <li class="cursor-pointer py-1 hover:text-gray-800">
+                <a href="#" class="">About</a>
+              </li>
+              <li class="cursor-pointer py-1 hover:text-gray-800">
+                <a href="#" class="">Contact</a>
+              </li>
+              <li class="cursor-pointer py-1 hover:text-gray-800">
+                <a href="#" class="">StyleGuide</a>
+              </li>
+              <li class="cursor-pointer py-1 hover:text-gray-800">
+                <a href="https://github.com/alexa-132" class="">GitHub</a>
+              </li>
+            </ul>
+            <!--End menu-->
+
+            <ul class="basis-1/6">
+              <li class="">
+                <a href="#" class="">Cart</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
         <main>
           <div class="slider">slider</div>
